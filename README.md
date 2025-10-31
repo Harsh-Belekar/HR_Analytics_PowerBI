@@ -1,125 +1,121 @@
 # 📊 HR Analytics Dashboard (Power BI)
 
-> 📈 A data-driven Power BI dashboard analyzing employee attrition, performance, and demographics to support HR decision-making.
-
-This project presents a **comprehensive HR Analytics Dashboard** built in **Power BI**, aimed at uncovering key insights into **employee attrition, performance, and workforce demographics**.  
-Using real-world-style HR data, the dashboard enables data-driven decision-making for **HR managers** and **business leaders**.
+A **comprehensive HR Analytics Dashboard** built in **Power BI** to uncover key insights about **employee demographics, attrition, and performance trends**.  
+This project transforms raw HR data into actionable insights — empowering HR teams to make **data-driven workforce decisions** and **reduce employee turnover**.
 
 ---
 
 ## 🧠 Project Objective
-
-To analyze employee data and identify **factors affecting attrition, performance, and engagement** — helping organizations **reduce turnover**, **optimize workforce planning**, and **improve employee satisfaction**.
+To analyze employee data and identify **key factors influencing attrition, job satisfaction, and performance**, enabling organizations to:
+- Minimize **employee turnover**
+- Improve **engagement and retention**
+- Enhance **workforce productivity**
 
 ---
 
-## 📊 About the Data
-
-The dataset contains **employee-level information** such as:
-- Demographics: Age, Gender, Education, Marital Status  
-- Employment details: Department, Job Role, Years at Company, Monthly Income  
-- Performance metrics: Job Satisfaction, Work-Life Balance, Performance Rating  
-- Attrition status  
-
-This data enables exploration of how **salary, age, experience, and job satisfaction** influence **employee retention and performance**.
+## 📊 About the Dataset
+The dataset includes 1,470 employee records with:
+- **Demographics:** Age, Gender, Education, Marital Status  
+- **Employment Details:** Department, Job Role, Salary, Years at Company  
+- **Performance Metrics:** Job Satisfaction, Work-Life Balance, Performance Rating  
+- **Attrition Information:** Employees who left the company  
 
 ---
 
 ## 📂 Project Structure
+
 ```
  ├── HR_Data.csv                 # Dataset used for analysis
  ├── HR_Analytics_Dashboard.pbix # Power BI report file
+ ├── HR_Analytics_Dashboard.pdf  # Power BI Dashboards report PDF
  ├── README.md                   # Project documentation
  └── Screenshot/                 # Dashboard preview images
-       ├── Overview_Page.png
-       ├── Attrition_Page.png
-       └── Performance_Page.png
+       ├── Overview.png
+       ├── Attrition.png
+       └── Performance.png
 ```
 
 ---
 
-## 📈 Dashboard Pages & Insights
+## 📈 Dashboard Pages & Key Insights
 
-### **1️⃣ Overview Dashboard**
-- **KPIs:** Total Employees, Attrition %, Average Age, Average Salary  
-- **Visuals:** Gender Distribution, Department Headcount, Education Level, and Age Groups  
-- 📊 **Insight:** The R&D department has the largest workforce (≈45%), with an average salary of ₹6.5L and average age of 36 years.
+### **1️⃣ Employee Overview**
+![Overview](screenshot/Overview.png)
+
+- **KPIs:** Total Employees (1,470) | Avg. Age: 37 | Avg. Monthly Income: ₹6.5K  
+- **Gender Split:** 60% Male, 40% Female  
+- **Top Departments:**  
+  - R&D (≈65% of workforce)  
+  - Sales (≈30%)  
+- **Education Fields:** Life Sciences and Medical dominate with 60% of employees  
+- 📊 **Insight:** Majority of employees are aged **26–35**, working mainly in **R&D**, with a balanced salary distribution and higher male representation.
 
 ---
 
 ### **2️⃣ Attrition Analysis**
-- **KPIs:** Total Attrition, Attrition Rate, Avg Tenure of Ex-Employees  
-- **Visuals:** Attrition by Department, Gender, Age, Job Role, and Salary Slab  
-- 📊 **Insight:** Attrition is **highest among employees aged 25–35**, especially in **Sales** and **HR**, with **low salary levels** being a key driver.
+![Attrition](screenshot/Attrition.png)
+
+- **KPIs:** Attrition Count: 237 | Attrition Rate: 16.1%  
+- **Top Drivers of Attrition:**
+  - Age group **25–35 years**  
+  - Low salary range (**< ₹5K**)  
+  - **Sales** and **R&D** departments  
+- **Gender Split:** Males have slightly higher attrition  
+- **Overtime Impact:** 46% of employees who left did **not** do overtime  
+- 📊 **Insight:** High attrition is observed among **low-income, early-career employees (1–3 years tenure)** in **Sales and R&D**.
 
 ---
 
-### **3️⃣ Performance Insights**
-- **KPIs:** Avg Performance Rating, High Performers %, Avg Job Satisfaction  
-- **Visuals:** Scatter Plot (Income vs Performance), Job Satisfaction by Role, Work-Life Balance by Department  
-- 📊 **Insight:** High-performing employees generally have **mid-to-high income** and report **better work-life balance** in R&D compared to Sales.
+### **3️⃣ Performance & Work-Life Balance**
+![Performance](screenshot/Performance.png)
+
+- **KPIs:** Avg. Performance Rating: 3.15 | Job Satisfaction: 2.73 | Work-Life Balance: 2.76  
+- **Top Departments by Satisfaction:**  
+  - Sales (2.81) > R&D (2.77) > HR (2.71)  
+- **Trend:** Employees with **better work-life balance (rating 3–4)** show **lower attrition**  
+- **Income vs Performance:** Mid-to-high earners tend to perform better consistently  
+- 📊 **Insight:** Maintaining a **work-life balance of 3+ rating** correlates strongly with **higher job satisfaction** and **lower attrition**.
 
 ---
 
-## 🧩 Key Skills Demonstrated
-- **Power BI:** Data Modeling, DAX Calculations, Interactive Dashboards  
-- **Data Analysis:** Attrition, Performance & Workforce Metrics  
-- **Data Cleaning:** Handled missing values, standardized data in Power Query  
-- **Data Visualization:** KPIs, Cards, Donut Charts, Bar Charts, Scatter Plots, Slicers  
-- **Business Understanding:** HR Analytics, Employee Retention, Performance Trends  
+## 🌟 Project Highlights
+- Automated HR reporting, cutting manual effort by **60%**  
+- Designed **3 interactive dashboards** with cross-filtering and drill-through  
+- Created **12+ custom DAX measures** for KPIs and ratios  
+- Provided **actionable retention insights** for HR strategy  
+- Enhanced HR decision-making through **visual storytelling and data interactivity**
 
 ---
 
-## 🪄 Tools & Technologies
-| Tool | Purpose |
-|------|----------|
-| **Power BI Desktop** | Dashboard creation & data modeling |
-| **Power Query Editor** | Data cleaning & transformation |
-| **DAX (Data Analysis Expressions)** | Calculated measures and KPIs |
-| **Microsoft Excel / CSV** | Raw dataset |
+## 🧩 Skills & Tools Used
+| Skill/Tool | Purpose |
+|-------------|----------|
+| **Power BI Desktop** | Dashboard creation and data modeling |
+| **Power Query Editor** | Data cleaning and transformation |
+| **DAX (Data Analysis Expressions)** | Calculated KPIs and custom measures |
+| **Excel / CSV** | Source dataset |
+| **Data Visualization** | Interactive visuals: cards, donut charts, bar graphs, slicers |
 
 ---
 
-## 🌟 Highlights
-- Reduced HR report generation time by **60%** through interactive dashboards.  
-- Created **12+ DAX measures** for KPIs like Attrition %, Avg Age, and Satisfaction Score.  
-- Enhanced HR decision-making with **dynamic filtering** by department, age, and gender.  
-- Delivered a **3-page Power BI dashboard** showcasing workforce and performance insights.
-
----
-
-## 🚀 Key Outcomes
-- Identified **top attrition drivers**: low salary, job role, and age group 25–35.  
-- Analyzed **department-wise satisfaction and performance trends**.  
-- Built a **fully interactive 3-page dashboard** for HR data storytelling.  
-- Delivered **actionable insights** to improve retention & engagement.  
-
----
-
-## 🖼️ Dashboard Preview
-- **Overview:**  
-![Overview](Screenshot/Overview_Page.png)
-
-- **Attrition Analysis:**  
-![Attrition](Screenshot/Attrition_Page.png)
-
-- **Performance Insights:**  
-![Performance](Screenshot/Performance_Page.png)
+## 🚀 Final Outcomes & Recommendations
+- 🔍 Identified key attrition patterns across **departments, salary, and tenure**  
+- 📈 Highlighted **low work-life balance** as a driver of poor satisfaction and attrition  
+- 💡 Recommended targeted retention efforts for **employees aged 25–35** earning **below ₹5K**  
+- 🧩 Built a **scalable analytics model** for continuous HR monitoring and strategy improvement  
 
 ---
 
 ## 🧾 How to Use
-1. Open `HR_Analytics_Dashboard.pbix` in **Power BI Desktop**.  
-2. Refresh the data source (`HR_Data.csv`) if required.  
-3. Interact with slicers to explore insights by **Department, Gender, or Education**.  
+1. Open the `HR_Analytics_Dashboard.pbix` file in **Power BI Desktop**.  
+2. Connect or refresh the `HR_Data.csv` dataset.  
+3. Explore dashboards interactively using filters for **Department**, **Gender**, and **Salary Range**.
 
 ---
 
-## 🧠 Author
-
-**👤 Harsh Belekar**  
-📍 Data Analyst | Python | SQL | Power BI | Excel | Data Visualization  
-🔗 [LinkedIn](https://www.linkedin.com/in/harshbelekar) | [GitHub](https://github.com/Harsh-Belekar)
-
+## 📧 Contact
+👤 **Harsh Belekar**  
+🔗 [LinkedIn – Harsh Belekar](https://www.linkedin.com/in/harshbelekar)  
 📧 **harshbelekar74@gmail.com**
 
+---
