@@ -3,6 +3,18 @@
 A **comprehensive HR Analytics Dashboard** built in **Power BI** to uncover key insights about **employee demographics, attrition, and performance trends**.  
 This project transforms raw HR data into actionable insights — empowering HR teams to make **data-driven workforce decisions** and **reduce employee turnover**.
 
+![Tool](https://img.shields.io/badge/Tool-Power_BI-yellow)
+![Tool](https://img.shields.io/badge/Tool-Microsoft_Excel-green)
+![Tool](https://img.shields.io/badge/Tool-Power_Query-lightgreen)
+![Tool](https://img.shields.io/badge/Tool-DAX-blue)
+![Focus](https://img.shields.io/badge/Focus-HR_Analytics-orange)
+![Focus](https://img.shields.io/badge/Focus-Employee_Attrition_Analysis-lightblue)
+![Focus](https://img.shields.io/badge/Focus-Performance_Insights-purple)
+![Feature](https://img.shields.io/badge/Feature-Interactive_Dashboard-brightgreen)
+![Feature](https://img.shields.io/badge/Feature-Data_Driven_Insights-critical)
+![Type](https://img.shields.io/badge/Type-Business_Intelligence_Project-lightblue)
+![Result](https://img.shields.io/badge/Result-Improved_HR_Decisions-success)
+
 ---
 
 ## 🧠 Project Objective
