@@ -3,17 +3,7 @@
 A **comprehensive HR Analytics Dashboard** built in **Power BI** to uncover key insights about **employee demographics, attrition, and performance trends**.  
 This project transforms raw HR data into actionable insights — empowering HR teams to make **data-driven workforce decisions** and **reduce employee turnover**.
 
-![Tool](https://img.shields.io/badge/Tool-Power_BI-yellow)
-![Tool](https://img.shields.io/badge/Tool-Microsoft_Excel-green)
-![Tool](https://img.shields.io/badge/Tool-Power_Query-lightgreen)
-![Tool](https://img.shields.io/badge/Tool-DAX-blue)
-![Focus](https://img.shields.io/badge/Focus-HR_Analytics-orange)
-![Focus](https://img.shields.io/badge/Focus-Employee_Attrition_Analysis-lightblue)
-![Focus](https://img.shields.io/badge/Focus-Performance_Insights-purple)
-![Feature](https://img.shields.io/badge/Feature-Interactive_Dashboard-brightgreen)
-![Feature](https://img.shields.io/badge/Feature-Data_Driven_Insights-critical)
-![Type](https://img.shields.io/badge/Type-Business_Intelligence_Project-lightblue)
-![Result](https://img.shields.io/badge/Result-Improved_HR_Decisions-success)
+![Tool](https://img.shields.io/badge/Tool-Power_BI-yellow) ![Tool](https://img.shields.io/badge/Tool-Microsoft_Excel-green) ![Tool](https://img.shields.io/badge/Tool-Power_Query-lightgreen) ![Tool](https://img.shields.io/badge/Tool-DAX-blue) ![Focus](https://img.shields.io/badge/Focus-HR_Analytics-orange) ![Focus](https://img.shields.io/badge/Focus-Employee_Attrition_Analysis-lightblue) ![Focus](https://img.shields.io/badge/Focus-Performance_Insights-purple) ![Feature](https://img.shields.io/badge/Feature-Interactive_Dashboard-brightgreen) ![Feature](https://img.shields.io/badge/Feature-Data_Driven_Insights-critical) ![Type](https://img.shields.io/badge/Type-Business_Intelligence_Project-lightblue) ![Result](https://img.shields.io/badge/Result-Improved_HR_Decisions-success)
 
 ---
 
@@ -37,14 +27,21 @@ The dataset includes 1,470 employee records with:
 ## 📂 Project Structure
 
 ```
- ├── HR_Data.csv                 # Dataset used for analysis
- ├── HR_Analytics_Dashboard.pbix # Power BI report file
- ├── HR_Analytics_Dashboard.pdf  # Power BI Dashboards report PDF
- ├── README.md                   # Project documentation
- └── Screenshot/                 # Dashboard preview images
-       ├── Overview.png
-       ├── Attrition.png
-       └── Performance.png
+ ├── Dashboard/                 
+ │    └── HR_Analytics_Dashboard.pbix  # Power BI report file
+ │
+ ├── Data/                 
+ │    └── HR_Data.csv                  # Dataset used for analysis
+ │
+ ├── Docs/                 
+ │    └── HR_Analytics_Dashboard.pdf   # Power BI Dashboards report PDF
+ │
+ ├── Images/                           # Dashboard preview images
+ │    ├── Overview.png
+ │    ├── Attrition.png
+ │    └── Performance.png
+ │
+ └── README.md                         # Project documentation
 ```
 
 ---
@@ -52,7 +49,7 @@ The dataset includes 1,470 employee records with:
 ## 📈 Dashboard Pages & Key Insights
 
 ### **1️⃣ Employee Overview**
-![Overview](screenshot/Overview.png)
+![Overview](Images/Overview.png)
 
 - **KPIs:** Total Employees (1,470) | Avg. Age: 37 | Avg. Monthly Income: ₹6.5K  
 - **Gender Split:** 60% Male, 40% Female  
@@ -65,7 +62,7 @@ The dataset includes 1,470 employee records with:
 ---
 
 ### **2️⃣ Attrition Analysis**
-![Attrition](screenshot/Attrition.png)
+![Attrition](Images/Attrition.png)
 
 - **KPIs:** Attrition Count: 237 | Attrition Rate: 16.1%  
 - **Top Drivers of Attrition:**
@@ -79,7 +76,7 @@ The dataset includes 1,470 employee records with:
 ---
 
 ### **3️⃣ Performance & Work-Life Balance**
-![Performance](screenshot/Performance.png)
+![Performance](Images/Performance.png)
 
 - **KPIs:** Avg. Performance Rating: 3.15 | Job Satisfaction: 2.73 | Work-Life Balance: 2.76  
 - **Top Departments by Satisfaction:**  
